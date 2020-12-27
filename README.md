@@ -30,3 +30,21 @@
 窗口的最大值。实现一个函数：
 * 输入：整型数组arr，窗口大小为w
 * 输出：一个长度为n-w+1的数组res，res[i] 表示每一种窗口状态下的最大值。
+
+7.定义二叉树节点如下:
+```java
+public class Node {
+    public int value;
+    public Node left;
+    public Node right;
+    
+    public Node(int data) {
+        this.value = data;
+    }
+}
+```
+一个数组的MaxTree定义如下。
+* 数组必须没有重复元素
+* MaxTree是一棵二叉树，数组的每一个值对应一个二叉树节点。
+* 包括MaxTree数在内且在其中的每一个子数上，值最大的节点都是树的头。
+给定一个没有重复元素的数组arr,写出生成这个数组的MaxTree的函数，要求如果数组长度N，则时间复杂度为O(N)、额外空间复杂度为O(N)。
