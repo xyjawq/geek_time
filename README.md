@@ -60,3 +60,5 @@ public class Node {
 给定数组arr和整数num，共返回有多少子数组满足如下情况：
 max(arr[i,j]) - min(arr[i,j]) <= num
 要求：如果数组长度为N，实现时间复杂度O(N)的解法。
+
+10. 给定两个有序链表的头指针head1和head2，打印两个链表的公共部分
